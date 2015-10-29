@@ -1,0 +1,170 @@
+body{
+	background:#CCC;
+	margin:0 auto;
+}
+
+.wrapper{
+	background: #0F0;
+	margin:0 auto;
+	height:2000px;
+	width:1000px;
+}
+
+header{
+	background:#F00;
+	height:400px;
+	width:800px;
+	margin:0 auto 0 auto;
+	padding: 10px;
+}
+
+footer{
+	background:#669900; 
+	height:400px;
+	width:800px;
+	margin:0 auto;
+	padding: 10px;
+
+}
+
+#index{
+	background:#00F;
+	height:200px;
+	width:500px;
+	margin:0 auto;
+}
+
+.content{
+	background:#FFFF66;
+	height:800px;
+	width:800px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.news{
+	background:#FFF;
+	height:200px;
+	width:400px;
+	margin:0 auto;
+	padding: 10px;
+	float:left;
+}
+
+.sports{
+	background:#66CCFF;
+	height:200px;
+	width:350px;
+	margin:0 auto;
+	padding:10px;
+	float:right;
+}
+
+.reports{
+	background:#00F;
+	height:200px;
+	width:350px;
+	margin:0 auto;
+	padding:10px;
+}
+
+
+*{
+	font: 20px serif;
+}
+
+h1, p {
+	text-align:center;
+}
+
+h1 p {
+	background:blue;
+}
+
+header>nav {
+	text-decoration:underline;
+}
+
+section+p{
+	background:green;
+}
+
+section~h1{
+	background: blue;
+}
+
+/* lo comento porque me marcaria todo, igual funciona
+a [target] {
+	background: yellow;
+}
+*/
+
+a[target=_blank]{
+	background: blue;
+}
+
+a[title~=flower]{
+	background: orange;
+}
+
+a[lang|=fa]{
+	background:red;
+}
+
+a[href^="https"]{
+	text-decoration:underline;
+}
+
+a[href$=".pdf"]{
+	background:purple;
+}
+
+a[href*="tube"]{
+	background:coral;
+}
+
+a:active{
+	background: yellow;
+}
+
+p::after{
+	content: "...end paragraph";	
+}
+
+p::before{
+	content: "start paragraph...";
+}
+
+input:checked{
+	width: 25px;
+	height: 25px;
+}
+
+input[type="text"]:disabled{
+	background:#CCC;
+}
+
+p:empty{
+	background:black;
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+	clear: both;
+}
+
+p:first-child{
+	background: yellow;
+}
+
+p::first-letter{
+	font: 200%;
+	color: #8A2BE2;
+}
+
+a:hover { 
+    background-color: green;
+}
+
+p:nth-child(5){
+	background:blue;
+}

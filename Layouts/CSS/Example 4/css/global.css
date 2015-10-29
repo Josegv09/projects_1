@@ -1,0 +1,63 @@
+body{
+	background:#CCC;
+	margin: 0 auto;
+}
+
+.wrapper{
+	background:#CCC;
+	height:600px;
+	width:728px;
+	margin: 0 auto;
+}
+
+header{
+	background:#F00;
+	height:200px;
+	width:728px;
+}
+
+nav{
+	background:#F00;
+	height:200px;
+	width:364px;
+	float:left;
+}
+
+.search{
+	background:#0F0;
+	height:200px;
+	width:364px;
+	float:left;
+}
+
+.news{
+	background:#00F;
+	height:100px;
+	width:728px;
+}
+
+.weather{
+	background:#FF0;
+	height:100px;
+	width:728px;
+}
+
+footer{
+	background:#C00;
+	height:200px;
+	width:728px;
+}
+
+.reports{
+	background: #F0F;
+	height:200px;
+	width:364px;
+	float:left;
+}
+
+.sports{
+	background:#F00;
+	height:200px;
+	width:364px;
+	float:left;
+}

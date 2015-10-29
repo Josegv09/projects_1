@@ -1,0 +1,29 @@
+.container{
+	background:grey;
+	width: 70%;
+	height: 600px;
+}
+
+.lvl1, .lvl2 div, .lvl3{
+	height: 200px;
+}
+
+.lvl1:first-child{
+	background: red;
+}
+
+.lvl2 div:nth-child(1){
+	background: blue;
+}
+
+.lvl2 div:nth-child(2){
+	background: yellow;
+}
+
+.lvl2 div:nth-child(3){
+	background: brown;
+}
+
+.lvl3{
+	background: green;
+}

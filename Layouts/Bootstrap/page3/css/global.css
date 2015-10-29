@@ -1,0 +1,66 @@
+.container{
+	width: 75%;
+	height: 600px;
+	background: grey;
+}
+
+.lvl1, .lvl1 div{
+	height: 200px;
+}
+
+.lvl1 div:first-child{
+	background: red;
+}
+
+.lvl1 div:last-child{
+	background: green;
+}
+
+.lvl2, .lvl2 div{
+	height: 200px;
+}
+
+.lvl2 div:first-child{
+	background: yellow;
+}
+
+.lvl2 div:last-child{
+	background: orange;
+}
+
+.lvl2 div:first-child{
+	background: blue;
+}
+.lvl2 div:last-child{
+	background: purple;
+}
+
+.lvl3, .
+lvl3 div:not(.sub){
+	height: 200px;
+}
+
+.sub{
+	height: 100px;
+}
+
+.lvl3 > div:first-child{
+	background: red;
+}
+
+.lvl3 > div:nth-child(2){
+	background: pink;
+}
+
+.lvl3 div:nth-child(3){
+	height: 200px;
+	background: brown;
+}
+
+.lvl3 div:nth-child(3){
+	background: yellow;
+}
+
+.sub:first-child{
+	background: green;
+}

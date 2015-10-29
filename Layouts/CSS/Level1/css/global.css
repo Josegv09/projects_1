@@ -1,0 +1,156 @@
+body{
+	margin:0 auto;
+	background:#F0F0F0;
+}
+
+h1{
+	font: 30px arial;
+	color:#368310;
+	float:right;
+	padding:20px 155px 0 0;
+}
+
+h2{
+	font: 14px arial;
+	color:#620911;
+}
+
+.live h2{
+	float:right;
+	padding: 0 48px 0 0;
+}
+.ticket h2{
+	float:left;
+	padding: 5px 30px;
+}
+
+.wrapper{
+	width:729px;
+	height:784px;
+	background:#F0F0F0;
+	margin:0 auto;
+}
+
+header{
+	width:729px;
+	height:73px;
+	background:url(../images/banner_top.jpg);
+	margin:0 auto;
+}
+
+.main{
+	width:729px;
+	height:586px;
+	margin:10px auto;
+	background:#FFF;
+	border:1px solid #B3B3B3;
+}
+
+nav{
+	width:701px;
+	height:53px;
+	margin:0 auto;
+	background: #FFFFFF;
+	padding:0 0 0 28px;
+	border-bottom: 18px solid #000;
+	overflow: hidden;
+}
+
+nav li {
+	background:url(../images/navBar_buttonBg.jpg);
+	width:135px;
+	height:32px;
+	margin: 22px 0 0 0;
+	float: left;
+	text-align: center;
+	padding: 10px 0 0 0;
+}
+
+.banner{
+	width:729px;
+	height:304px;
+	background:url(../images/banner.jpg);
+}
+
+.live{
+	width:492px;
+	height:81px;
+	background:#F8F8F8;
+	border-top: 1px solid #D1D1D1;
+	border-right: 1px solid #D1D1D1;
+	padding: 13px 0 0 28px;
+}
+
+.ticket{
+	width:500px;
+	height:81px;
+	background:#E5E5E5;
+	border-top: 1px solid #D9D9D9;
+	border-right: 1px solid #D0D0D0;
+	border-bottom: 1px solid #D1D1D1;
+	padding: 4px 0 0 20px;
+}
+
+.form{
+	width:193px;
+	height:180px;
+	background: #FFFFFF;
+	border-top: 1px solid #B3B3B3;
+	border-bottom: 1px solid #B3B3B3;
+	border-left: 1px solid #B3B3B3;
+	border-right: 1px solid #B3B3B3; 
+	float:right;
+}
+
+.live img{
+	float:left;
+	display: block;
+}
+
+.ticket img{
+	float: left;
+	display: block;
+}
+
+ul a{
+	font: 12px arial;
+	color:#FFFFFF;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+}
+
+ul a:hover {
+	text-decoration: underline;
+}
+
+.live p{
+	width:365px;
+	height:36px;
+	font: 11px arial;
+	text-align: right;
+	padding: 12px 45px 0 0;
+	float: right;
+}
+
+.ticket p{
+	width: 350px;
+	height: 50px;
+	font: 11px arial;
+	float: left;
+    padding: 0 0 0 30px;
+}
+
+.form p{
+	font: 12px arial;
+	margin: 0 0 5px;
+}
+
+.form *{
+	padding: 10px 0 0 10px;
+}
+
+footer p{
+	font: 12px arial;
+	color:#DBDBDB;
+}

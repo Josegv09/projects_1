@@ -1,0 +1,38 @@
+.container{
+	width: 75%;
+	height: 600px;
+	background: grey;
+}
+
+.color1{
+	background: red;
+}
+
+.color2{
+	background: blue;
+}
+
+.color3{
+	background: yellow;
+}
+
+.color4{
+	background: orange;
+}
+
+.color5{
+	background: brown;
+}
+
+
+.lvl1, .lvl1 div{
+	height: 200px;
+}
+
+.lvl2, .lvl2 div{
+	height:200px; 
+}
+
+.lvl3, .lvl3 div{
+	height: 200px;
+}
