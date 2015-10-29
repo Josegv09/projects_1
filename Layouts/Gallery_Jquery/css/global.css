@@ -1,0 +1,54 @@
+body{
+	background: #FFFFFF;
+}
+
+.wrapper{
+	width: 1100px;
+	height: 800px;
+	margin: 0 auto;
+	background: #FFFFFF;
+}
+
+.gallery{
+	width:800px;
+	height:600px;
+	position: relative;
+	left: 150px;
+	top: 100px;
+	border-radius: 30px;
+	overflow: hidden;
+}
+
+.itemsList{
+	position: absolute;
+	left: 0;
+	width: 3200px;
+	height: 600px;
+}
+
+li img{
+	width: 800px;
+	height:600px;
+}
+
+.prevBtn{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	left: 0;
+	top:275px;
+	cursor: pointer;
+}
+
+.nextBtn{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	right: 0;
+	top: 275px;
+	cursor: pointer;
+}
+
+.itemsList li{
+	float: left;
+}

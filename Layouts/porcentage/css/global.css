@@ -1,0 +1,25 @@
+body{
+	background: #CCCCCC;
+	margin: 0 auto;
+}
+
+.wrapper{
+	background: white;
+	width: 50%;
+	height: 600px;
+	margin: 0 auto;
+}
+
+#a{
+	width: 50%;
+	height:50%;
+	background:yellow;
+	float: left;
+}
+
+#b{
+	width:50%;
+	height: 50%;
+	background: blue;
+	float: right;
+}

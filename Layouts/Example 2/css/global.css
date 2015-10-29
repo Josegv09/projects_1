@@ -1,0 +1,44 @@
+body{
+	background:#055;
+}
+
+.wrapper {
+	height:600px;
+	width:728px;
+	margin:0 auto;
+}
+
+header{
+	background:#F00;
+	height:200px;
+	width:728px;
+}
+
+.weather {
+	background:#00F;
+	height:100px;
+	width:364px;
+	float:left;
+}
+
+.news{
+	background:#0F0;
+	height:100px;
+	width:364px;
+	float:left;
+}
+
+.sports {
+	background:#F0F;
+	height:200px;
+	width:364px;
+	float:right;
+}
+
+
+footer{
+	background:#FF0;
+	height:200px;
+	width:728px;
+	clear:both;
+}

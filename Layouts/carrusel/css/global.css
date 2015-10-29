@@ -1,0 +1,65 @@
+body{
+	background: #505354;
+}
+
+.wrapper{
+	width:1200px;
+	height: 860px;
+	background: #27AEDB;
+	margin: 0 auto;
+}
+
+header{
+	width: 1200px;
+	height: 100px;
+}
+
+footer{
+	width: 1200px;
+	height: 100px;
+}
+
+.gallery{
+	position: relative;
+	width: 800px;
+	height: 600px;
+	left: 200px;
+	border-radius: 15px;
+	overflow: hidden;
+}
+
+.itemsList{
+	position: absolute;
+	left: 0;
+	width:3200px;
+	height:600px; 
+	transition:left ease-in-out .5s;
+}
+
+.previousBtn{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	left:0px;
+	top: 275px;
+	cursor: pointer;
+}
+
+.nextBtn{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 275px;
+	right: 0px;
+	cursor: pointer;
+}
+
+
+li img{
+	width: 800px;
+	height: 600px;
+}
+
+.itemsList li {
+	float: left;
+}
